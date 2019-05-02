@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item  android:id="@+id/search"
+    android:icon="@drawable/ic_search_black_24dp"
+    android:title="@string/menu_search"
+    app:actionViewClass="android.widget.SearchView"
+    app:showAsAction="ifRoom" />
+
+    <item android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/m_icon">
+<menu>
+    <item
+        android:id="@+id/call_us"
+        android:title="Call Us"
+        android:icon="@drawable/m_call"/>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/m_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/menu_about"
+        android:icon="@drawable/m_about"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/m_logout"/>
+</menu>
+
+</item>
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/m_home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/m_location"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/m_delivery"
+            android:title="Delivery" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/m_settings"
+            android:title="Settings"
+            />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_callus"
+                android:icon="@drawable/m_call"
+                android:title="Call Us" />
+            <item
+                android:id="@+id/nav_AboutApp"
+                android:icon="@drawable/m_about"
+                android:title="About App" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/m_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_Support_us"
+                android:icon="@drawable/m_support"
+                android:title="Support US" />
+        </menu>
+    </item>
+
+</menu>
