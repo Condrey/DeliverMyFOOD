@@ -75,9 +75,9 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    startActivity(new Intent(HomeActivity.this,OrderActivity.class));
+                    startActivity(new Intent(HomeActivity.this,Order2Activity.class));
                 }else{
-                    startActivity(new Intent(HomeActivity.this,OrderActivity.class));
+                    startActivity(new Intent(HomeActivity.this,Order2Activity.class));
                 }
             }
         });

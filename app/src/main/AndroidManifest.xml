@@ -20,10 +20,6 @@
         <activity
             android:name=".Order2Activity"
             android:label="@string/title_activity_order2"></activity>
-        <activity
-            android:name=".OrderActivity"
-            android:label="@string/title_activity_order"
-            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
